@@ -1,3 +1,21 @@
 body {
-	background-color: #1A1A54;
+	background-color: #4D4D8A;
+	text-align: center;
+	font-family: Lobster;
+}
+@font-face {
+	font-family: Lobster;
+	src: url('../fonts/LobsterTwo-Regular.ttf');
+}
+#form {
+	padding-top: 50px;
+}
+#searchText {
+	max-width: 50%;
+	border-radius: 10%;
+	border-color: black;
+}
+h4,
+button {
+	color: black;
 }
