@@ -1,21 +1,40 @@
-body {
-	background-color: #4D4D8A;
-	text-align: center;
-	font-family: Lobster;
+body{
+  	background: url('http://res.cloudinary.com/gerak1/image/upload/v1471694479/wiki-bg_vimb1w.jpg') no-repeat center center fixed;
+  	-webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
 }
-@font-face {
-	font-family: Lobster;
-	src: url('../fonts/LobsterTwo-Regular.ttf');
+
+.container-fluid, 
+.col-md-8 {
+  padding:5%;
 }
-#form {
-	padding-top: 50px;
+
+h1 {
+	color: white;
 }
-#searchText {
-	max-width: 50%;
-	border-radius: 10%;
-	border-color: black;
+
+.searchAndButtons, 
+.onlyLink,
+h1 {
+  text-align: center;
 }
-h4,
-button {
-	color: black;
+
+.btn, 
+span {
+  font-size: 1.25em;
+}
+
+.onlyLink, 
+footer {
+  padding: 1%;
+}
+
+.searchResults {
+  background: white;
+}
+
+#search {
+  font-size: 1.4em;
 }

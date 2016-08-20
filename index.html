@@ -6,44 +6,42 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
     <title>Wikipedia Viewer</title>
 
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
 
 </head>
 
 <body>
 
-	<div class="container">
+	<div class="container-fluid ">
+        <h1>Find Wikipedia Articles</h1>
+        <div class="searchAndButtons row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <input type="text" id="search" size="50">
+                <button class="btn" id="searchBut">Search</button>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
 
-    <div id="index">
+        <div class="onlyLink">
+            <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><span>Get any random article</span></a>
+        </div>
 
-  		<form id="form">
-  			<fieldset class="form-group">
-    				<h4>What would you like to know about?</h4><br>
-    				<input type="text" id="searchText" value="">
-    		</fieldset>
-  		</form>
 
-  		<h4>Click below for a random wiki page!</h4><br>
-    	<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><button class="btn btn-secondary" id="randomButton">Click Me!</button></a>
+        <div class="searchResults">
 
-    </div> <!-- END OF INDEX DIV -->
-
-    <div id="results">
-
+        </div>
+  
+  
     </div>
 
-	</div>
-
-
-	<script type="text/javascript" href="js/jquery-3.0.0.min.js"></script>
-	<script type="text/javascript" href="js/bootstrap.min.js"></script>
-	<script type="text/javascript" href="js/script.js"></script>
+	<script href="./js/jquery-3.0.0.min.js"></script>
+	<script href="./js/bootstrap.min.js"></script>
+	<script type="text/javascript" href="./js/script.js"></script>
 
 </body>
 
