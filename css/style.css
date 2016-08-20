@@ -38,3 +38,8 @@ footer {
 #search {
   font-size: 1.4em;
 }
+
+#random-wiki {
+  text-decoration: none;
+  color: white;
+}
